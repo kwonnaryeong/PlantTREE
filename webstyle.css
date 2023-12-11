@@ -1,0 +1,232 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.head 
+{
+	color: #048b5e;
+}
+.container
+{
+	display: block;
+	margin-top: 5rem;
+}
+
+header
+{
+	left: 0;
+	position: absolute;
+	margin-left: 5em;
+}
+nav
+{
+	margin-top: 1rem;
+}
+ul li
+{
+	padding-top: 2.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+ul li a
+{
+	text-decoration: none;
+	color: grey;
+	font-size: 2.5ch;
+  
+}
+ul li a:hover
+{
+	border-radius: 25px;
+	padding: .5em 1.0em .5em 1.0em;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transition: background 1s;
+}
+ul button 
+{
+	margin-top: 9.2em;
+	height: 3em;
+	width: 8em;
+	border: none;
+	border-radius: 25px;
+	letter-spacing: .2ch;
+	background: #048b5e;
+	color: white;
+	cursor: pointer;
+	font-size: 2ch;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input 
+{
+	margin-top: 2em;
+	height: 3em;
+	width: 5em;
+	border: none;
+	border-radius: 700px;
+	letter-spacing: .1ch;
+	background: #7aaa9a;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5ch;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+textarea
+{
+	margin-top: -4em;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #c7c7c7;	
+}
+form input{
+	margin-top: 1em;
+	height: 3em;
+	width: 29em;
+	border: none;
+	border-radius: 10px;
+	letter-spacing: .1ch;
+	background: #7aaa9a;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5ch;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#content
+{
+	display: block;
+	margin-left: 20rem;
+	width: 75%;
+}
+.content-heading
+{
+    color: rgb(61, 61, 61);
+	font-size: 2.7ch;
+	letter-spacing: .1ch;
+	word-spacing: .3ch;
+	margin-top: -9rem;
+}
+.content-right
+{
+
+	display: inline-flex;
+	margin-left: 50em;
+	margin-top: 0em;
+}
+p
+{
+	word-break: normal;
+	font-weight: 200;
+}
+
+.content-bottom
+{
+	margin-top: 6em;
+	display: inline-flex;
+}
+.tree-card
+{
+	height: 14em;
+	width: 11em;
+	background: white;
+	border: none;
+	border-radius:20px;
+	margin-right: 1.5em;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tree-card:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tree-circle
+{
+	border-radius: 50%;
+	border: none;
+	height: 8em;
+	width: 8em;
+	margin-top: 2em;
+}
+h3
+{
+	padding-top: 1em;
+	font-family: arial;
+	font-size: 1.8ch;
+}
+.head
+{
+	font-size: 5ch;
+}
+
+@media screen and (min-width: 375px) 
+and (orientation: portrait)
+{
+	body
+	{
+		overflow-x: hidden;
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		display: block;
+	}
+	.container
+	{
+		margin: 1em;
+	}
+	.content, header
+	{
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.content-right
+	{
+		width: 85%;
+		transform: translate(-125rem,75rem);
+		display:block;
+		font-size: 4ch;		
+	}
+	.content-heading
+	{
+		margin-left: -15rem;
+		margin-top: -17rem;
+	}
+	h3
+	{
+		font-size: 3ch;
+		margin-top: .7em;
+	}
+	.content-bottom
+	{
+		margin-top: 3em;
+		margin-left: -17rem;
+	}
+	h1
+	{
+		font-size:4ch;
+		letter-spacing: .2ch;
+		word-spacing: 0;
+	}
+	.head
+	{
+		font-size: 7ch;
+		margin-left: 26rem;
+		margin-top: -1.3em;
+	}
+	.tree-card
+	{
+		height: 23rem;
+		width: 19rem;
+		margin-left: 3rem;
+	}
+	.tree-circle
+	{
+		margin-top: 1.5em;
+		height: 14rem;
+		width: 14rem;
+	}
+	
+	}
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Plant TREE</title>
+	<link rel="stylesheet" type="text/css" href="webstyle.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1 class="head">Plant<br class="hide"/> <span class="hide">TREE</span></h1>
+			<nav class="hide">
+				<ul id="menu">
+					<li><a href="main.html">Main</a></li>
+					<li><a href="seed of tree.html">Seed of tree</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<button type="button" onclick="location.href='로그인.html'">로그인</button>
+				</ul>
+			</nav>
+		</header>
+	<div id="content">
+			<div class="content-right">
+			<p><img src="tree.jpg" width="300" height="300" alt="" />
+			</p>
+		</div>
+		<div class="content-heading">
+			<h1>어떤 나무로<br> 자랄까요?</h1>
+		</div>
+		   <div class="content-bottom">
+			 <img id="image" src="씨앗.png" width="200" height="250">
+                <script>
+                 function changeImage () {
+                document.getElementById("image").src="소나무.png";
+		        }
+                </script>
+                <br> <input type="button" onclick="changeImage()" value="클릭"/>
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<img id="image1" src="씨앗.png" width="200" height="250">
+                <script>
+                 function changeImage1 () {
+                document.getElementById("image1").src="은행나무.png";
+		        }
+                </script>
+                <br> <input type="button" onclick="changeImage1()" value="클릭"/>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<img id="image2" src="씨앗.png" width="200" height="250">
+                <script>
+                 function changeImage2 () {
+                document.getElementById("image2").src="단풍나무.png";
+		        }
+                </script>
+                <br> <input type="button" onclick="changeImage2()" value="클릭"/>
+
+
+	        </div>
+		</div>
+</body>
+</html>
